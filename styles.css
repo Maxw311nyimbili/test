@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;1,500&family=Noto+Serif&family=Pacifico&display=swap');
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* HOME PAGE */
+.header{
+
+    display: flex;
+    margin: 0px, 20px ;
+    align-items: center;
+    justify-content: space-around;
+ }
+
+ ul{
+    margin-left: 500px;
+    margin-right: 90px;
+ }
+
+ul, li{
+    list-style: none;
+    display: inline-block;
+    padding: 3PX;
+ }
+ .nav_item{
+    text-decoration: none;
+    font-family: "Noto Serif", sans-serif;
+    padding: 5px, 100px;
+    color:aliceblue;
+    margin:25px;
+    transition: 0.1s;
+   
+ }
+
+ .nav_item:hover{
+    
+    border-bottom: 3px rgb(193, 209, 209) solid;
+ }
+ .logo{
+    font-family: "Pacifico", sans-serif;
+    cursor: pointer;
+    color: aliceblue;
+ }
+ .logo_1{
+    margin-left: 45px;
+    font-family: "Pacifico", sans-serif;
+    cursor: pointer;
+    color: aliceblue;
+ }
+ 
+ /* Banner */
+ .banner{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.55)), url(images/Banner.jpg);
+    background-position: center;
+    background-size: cover;
+ }
+ 
+ h1{
+    text-align: center;
+    color: aliceblue;
+    padding-top: 110px;
+    font-size: 80px;
+    font-family: "Noto Serif", sans-serif;
+    font-weight: lighter;
+ }
+
+ .btn{
+    margin-top: 30px;
+    margin-left: 690px;
+    padding: 15px 45px;
+    font-size: 23px;
+    cursor: pointer;
+    font-family: "Noto Serif", sans-serif;
+    border: none;
+    border-radius: 50px;
+ }
+ .btn:hover{
+    background-color: transparent;
+    border: 1.3px aliceblue solid;
+    transition: 0.4s;
+    color: aliceblue;
+ }
+
+ .button_link{
+    text-decoration: none;
+    color: rgb(46, 45, 45);
+ }
+ .button_link:hover{
+    color: aliceblue;
+    transition: 0.4s;
+ }
+
+ /* SYNTHESIS PAGE */
+ 
+ .nav_bar{
+    text-decoration: none;
+    font-family: "Noto Serif", sans-serif;
+    /* padding: 5px, 100px; */
+    color:aliceblue;
+    margin:25px;
+ }
+
+ .header_1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(54, 54, 71);
+ }
+ .header_1{
+    width: 100%;
+    height: 34vh;
+    background-image: linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.55)), url(images/Banner.jpg);
+    background-position: center;
+    background-size: cover;
+ }
+.nav_item_1{
+    text-decoration: none;
+    font-family: "Noto Serif", sans-serif;
+    color:aliceblue;
+    transition: 0.1s;
+}
+.list_items{
+    margin-bottom:220px;
+}
+.nav_item_1:hover{
+    
+    border-bottom: 3px rgb(193, 209, 209) solid;
+}
+.logo_1{
+    margin-bottom:220px; 
+}
+
+/* SYNTHETIC PAGE */
+h3{
+    font-size: 23px;
+    font-family: "Noto Serif", sans-serif;
+    color: aliceblue;
+}
+.image_1, .image_2, .image_3{
+    margin-top: 65px;
+    margin-left: 250px;
+    box-shadow:3px ;
+}
+p{
+    color: aliceblue;
+    font-family: "Noto Serif", sans-serif;
+}
+.p1, .p2, .p3{
+    margin-right: 70px;
+    margin-left: 0px;
+    margin-top: 20px;
+
+}
+
+
+ .section{
+    background-color: rgb(67, 116, 131);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, ifr);
+ }
+
+ /* Tutorial Page */
+ h2{
+    color: aliceblue;
+    text-align: center;
+ }
+ .section_1{
+    margin-top: 0px;
+    background-color:rgb(67, 116, 131);
+ }
+ .container_1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, ifr);
+ }
+
+ .video_player{
+    margin-left: 450px;
+    margin-left: 50px;
+    margin-top: 36px;
+    width: 60px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+ }
+ video:focus{
+    outline: none;
+ }
+ 
+ .move_1{
+    margin-top: 40px;
+    margin-left: 100px;
+ }
+ .move_2{
+    margin-top: 40px;
+    margin-left: 90px;
+ }
+
+
+ 
